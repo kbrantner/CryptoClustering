@@ -4,6 +4,8 @@
 In this project I took data about different crypto currencies, with multiple features, and used different clustering techniques to group the data using unsupervised machine learning. First the data is scaled using StandardScaler. Then the data is clustered based on all of the features using KMeans. The data was run through the elbow method to determine that the optimal k is 4. Then the data was clustered, using only 3 components with PCA. With PCA, the total explained variance of the three principal components is 89.50%. Using the elbow method again, the optimal k is also 4. By using PCA, the impact of using fewer features to cluster the data is that the two clusters (clusters 2 and 3) are visually outliers, and clear independent clusters. Where when all of the features are used to cluster the data, then clusters 2 and 3 look mixed in with the other clusters.
 
 #Visuals
+bokeh_plot (2).png
+bokeh_plot (3).png
 
 #Installation
 For this code you will need to run the following dependencies:
